@@ -20507,7 +20507,7 @@ dl li {
 /* Sidebar */
 .sidebar {
   min-height: calc(100vh - 65px);
-  background: #223e9c;
+  background: #480ca8;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
   padding: 0;
@@ -20518,6 +20518,8 @@ dl li {
   -ms-transition: width 0.25s ease, background 0.25s ease;
   width: 240px;
 }
+
+
 
 .sidebar .nav {
   overflow: hidden;
@@ -20723,7 +20725,7 @@ dl li {
   -webkit-transition: background 0.25s ease;
   -moz-transition: background 0.25s ease;
   -ms-transition: background 0.25s ease;
-  background: url(../images/other/navbar-cover.jpg) center center no-repeat;
+  background: url(../images/vb.jpg) center center no-repeat;
   background-size: cover;
   height: 262px;
   width: auto;

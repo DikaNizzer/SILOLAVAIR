@@ -14,5 +14,37 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('landing.index');
+});
+
+//Login Mahasiswa
+Route::get('/mhs', function () {
+    return view('mhs.index');
+});
+
+
+//HALAMAN PAA SETELAH LOGIN
+//login paa
+Route::get('/paa', function () {
+    return view('paa.index');
+});
+
+//Buat Akun Dosen
+Route::get('/buatdosen', function () {
+    return view('paa.buatdosen');
+});
+
+//Buat Akun Mahasiswa
+Route::get('/buatmhs', function () {
+    return view('paa.buatmhs');
+});
+
+//tabel Mahasiswa
+Route::get('/datamhs', function () {
+    return view('paa.datamhs');
+});
+
+//tabel Dosen
+Route::get('/datadosen', function () {
+    return view('paa.datadosen');
 });
