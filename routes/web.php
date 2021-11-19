@@ -48,3 +48,8 @@ Route::get('/datamhs', function () {
 Route::get('/datadosen', function () {
     return view('paa.datadosen');
 });
+
+//tabel Dosen
+Route::get('/bimbingan', function () {
+    return view('paa.bimbingan');
+});

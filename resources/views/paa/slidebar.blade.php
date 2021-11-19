@@ -17,7 +17,7 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-          <i class="mdi mdi-palette menu-icon"></i>
+          <i class="mdi mdi-account-multiple-plus menu-icon "></i>
           <span class="menu-title">Buat Akun</span>
           <i class="menu-arrow"></i>
         </a>
@@ -30,26 +30,26 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="datamhs">
-          <i class="mdi mdi-view-headline menu-icon"></i>
+          <i class="mdi mdi-account-multiple menu-icon"></i>
           <span class="menu-title">Data Mahasiswa</span>
         </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="datadosen">
-          <i class="mdi mdi-view-headline menu-icon"></i>
+          <i class="mdi mdi-account-multiple menu-icon"></i>
           <span class="menu-title">Data Dosen</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="pages/forms/basic_elements.html">
-          <i class="mdi mdi-view-headline menu-icon"></i>
-          <span class="menu-title">Form elements</span>
+        <a class="nav-link" href="bimbingan">
+          <i class="mdi mdi-book-open-page-variant menu-icon"></i>
+          <span class="menu-title">Bimbingan Mahasiswa</span>
         </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="pages/charts/chartjs.html">
-          <i class="mdi mdi-chart-pie menu-icon"></i>
-          <span class="menu-title">Charts</span>
+          <i class="mdi mdi-alarm-check menu-icon"></i>
+          <span class="menu-title">Jadwal Sidang</span>
         </a>
       </li>
       <li class="nav-item">

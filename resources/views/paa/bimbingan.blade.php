@@ -4,7 +4,7 @@
 <div class="col-lg-12 grid-margin stretch-card">
     <div class="card">
       <div class="card-body">
-        <h4 class="card-title">Data Mahasiswa Akhir</h4>
+        <h4 class="card-title">Data Bimbingan Mahasiswa</h4>
         {{-- <p class="card-description">
           Add class <code>.table-striped</code>
         </p> --}}
@@ -22,13 +22,13 @@
                   Nama
                 </th>
                 <th>
-                  Email
+                  Judul TA
                 </th>
                 <th>
-                  No Telephone
+                  Jumlah Bimbingan
                 </th>
                 <th>
-                  Detail Data
+                  Detail Bimbingan
                 </th>
               </tr>
             </thead>
@@ -44,15 +44,15 @@
                   Herman Beck
                 </td>
                 <td>
-                  <div class="progress">
-                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
+                  Pemanfaatan Sistem Informasi
+                </td>
+                <td>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
                 </td>
                 <td>
                     <button type="button" class="btn btn-inverse-primary btn-fw">Detail</button>
-                </td>
-                <td>
-                  May 15, 2015
                 </td>
               </tr>
               <tr>
