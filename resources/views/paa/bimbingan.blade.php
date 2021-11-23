@@ -16,10 +16,10 @@
                     NIM
                 </th>
                 <th>
-                  Foto
+                  Judul TA
                 </th>
                 <th>
-                  Nama
+                  Tgl Pengajuan
                 </th>
                 <th>
                   Judul TA

@@ -7,7 +7,7 @@
         <a class="navbar-brand brand-logo" href="index.html"><img style="background:rgba(209, 194, 194, 0.322)" src="landing/public/assets/img/gallery/logo.png" height="45" alt="logo"/></a>
         <a class="navbar-brand brand-logo-mini" href="index.html"><img src="dashboard/images/logo-mini.svg" alt="logo"/></a>
       </div>
-      <h4 class="font-weight-bold mb-0 d-none d-md-block mt-1">Selamat Datang, Andika Surya</h4>
+      <h4 class="font-weight-bold mb-0 d-none d-md-block mt-1">Selamat Datang</h4>
       <ul class="navbar-nav navbar-nav-right">
         <li class="nav-item">
           <h4 class="mb-0 font-weight-bold d-none d-xl-block">Tahun Ajaran 2021 - 2022</h4>

@@ -53,3 +53,9 @@ Route::get('/datadosen', function () {
 Route::get('/bimbingan', function () {
     return view('paa.bimbingan');
 });
+
+
+//Jadwal SIdang
+Route::get('/jadwalpaa', function () {
+    return view('paa.jadwal');
+});

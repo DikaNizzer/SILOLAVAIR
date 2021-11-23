@@ -13,19 +13,19 @@
             <thead>
               <tr>
                 <th>
-                  Foto
+                  NIP
                 </th>
                 <th>
                   Nama
                 </th>
                 <th>
-                  Progres TA
+                  Email
                 </th>
                 <th>
-                  Detail Data
+                  No telephone
                 </th>
                 <th>
-                  Mahasiswa
+                    Detail Data
                 </th>
               </tr>
             </thead>

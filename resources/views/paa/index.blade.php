@@ -5,37 +5,55 @@
    <!-- <section> begin ============================-->
   <section class="pt-0 mb-20">
 
-    <div class="container mb-20">
-      <div class="row h-76 align-items-center mb-20">
-        <div class="col-md-12 col-lg-6 h-70">
-          <div class="card card-span text-white h-75"><img class="w-75" src="landing/public/assets/img/gallery/student-feedback.png" alt="..." />
-            <div class="card-body px-xl-5 px-md-3 pt-0">
-              <div class="d-flex flex-column align-items-center bg-200" style="margin-top:-2.4rem;">
+    <div class="stretch-card grid-margin">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-7 mb-20">
+                <h5>PAA Fakultas Vokasi ~ D3 Sistem Informasi</h5>
+                {{-- <p class="text-muted"> Show overview jan 2018 - Dec 2019 <a class="text-muted font-weight-medium pl-2" href="#"><u>See Details</u></a> --}}
+                {{-- </p> --}}
               </div>
+              <div class="col-sm-5 text-md-right mb-16">
+                <button type="button" class="btn btn-icon-text mb-20 mb-sm-0 btn-inverse-primary font-weight-normal ">
+                  <i class="mdi mdi-email btn-icon-prepend"></i> Cyber Campus </button>
+              </div>
+            </div>
+
+            <div class="container m-30">
+                <div class="card ">
+                    <div class="card-header ">
+                      Nama
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                        <ul class="list-group">
+                            <li class="list" >Username</li>
+                            <li class="list">Password</li>
+                            <li class="list">Nip</li>
+                          </ul>
+                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                      </blockquote>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="row mt-30">
+                <button type="button" class="btn btn-primary btn-rounded text-md-right btn-fw mt-20">Ubah Data</button>
+            </div>
+
+
+
+            <div class="row">
+              <div class="col-sm-8">
+                <p class="text-muted mb-0"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. <b>Learn More</b>
+                </p>
+              </div>
+
             </div>
           </div>
         </div>
-        {{-- <div class="card" style="width: 18rem;">
-          <img src="landing/public/assets/img/gallery/student-feedback.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div> --}}
-        <div class="col-md-12 col-lg-6 h-100">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Nama</li>
-            <li class="list-group-item">NIDN </li>
-            <li class="list-group-item">Email</li>
-          </ul>
-          <div class="card-body mb-20">
-            <a href="#" class="card-link">Cyber Campus</a>
-            <a href="#" class="card-link">Hebat E-Learning</a>
-            <a href="#" class="card-link">Edit Data</a>
-          </div>
-        </div>
       </div>
-    </div>
-    <!-- end of .container-->
 
   </section>
 

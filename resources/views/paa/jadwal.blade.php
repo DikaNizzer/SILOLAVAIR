@@ -1,10 +1,16 @@
 @extends('paa.main')
 @section('container')
 
+<div class="container mt-20">
+    <br>
+    <button type="button" class="btn btn-success btn-rounded btn-fw position-relative-end">Jadwalkan Sidang</button>
+    <br><br>
+</div>
+
 <div class="col-lg-12 grid-margin stretch-card">
     <div class="card">
       <div class="card-body">
-        <h4 class="card-title">Data Mahasiswa Akhir</h4>
+        <h4 class="card-title">Jadwal Sidang</h4>
         {{-- <p class="card-description">
           Add class <code>.table-striped</code>
         </p> --}}
@@ -13,36 +19,27 @@
             <thead>
               <tr>
                 <th>
-                    NIM
+                  No
                 </th>
                 <th>
-                    Nama
+                  Waktu Sidang
                 </th>
                 <th>
-                    Email
+                  Nama Mahasiswa
                 </th>
                 <th>
-                    No Telephone
+                  Nama Penguji
                 </th>
                 <th>
-                    Angkatan
+                    Nama Pembimbing
                 </th>
-                <th>
-                    Detail Data
-                </th>
-                {{-- <th>
-                  Detail Data
-                </th> --}}
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>
-                    152011513034
-                </td>
-                {{-- <td class="py-1">
+                <td class="py-1">
                   <img src="dashboard//images/faces/face1.jpg" alt="image"/>
-                </td> --}}
+                </td>
                 <td>
                   Herman Beck
                 </td>
@@ -59,12 +56,9 @@
                 </td>
               </tr>
               <tr>
-                <td>
-                    152011513034
-                </td>
-                {{-- <td class="py-1">
+                <td class="py-1">
                   <img src="dashboard/images/faces/face2.jpg" alt="image"/>
-                </td> --}}
+                </td>
                 <td>
                   Messsy Adam
                 </td>
@@ -81,12 +75,9 @@
                 </td>
               </tr>
               <tr>
-                <td>
-                    152011513034
-                </td>
-                {{-- <td class="py-1">
+                <td class="py-1">
                   <img src="dashboard/images/faces/face3.jpg" alt="image"/>
-                </td> --}}
+                </td>
                 <td>
                   John Richards
                 </td>
@@ -103,9 +94,9 @@
                 </td>
               </tr>
               <tr>
-                {{-- <td class="py-1">
+                <td class="py-1">
                   <img src="../../images/faces/face4.jpg" alt="image"/>
-                </td> --}}
+                </td>
                 <td>
                   Peter Meggik
                 </td>

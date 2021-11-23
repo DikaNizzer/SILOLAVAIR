@@ -43,11 +43,11 @@
       <li class="nav-item">
         <a class="nav-link" href="bimbingan">
           <i class="mdi mdi-book-open-page-variant menu-icon"></i>
-          <span class="menu-title">Bimbingan Mahasiswa</span>
+          <span class="menu-title">TA Mahasiswa</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="pages/charts/chartjs.html">
+        <a class="nav-link" href="/jadwalpaa">
           <i class="mdi mdi-alarm-check menu-icon"></i>
           <span class="menu-title">Jadwal Sidang</span>
         </a>
