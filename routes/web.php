@@ -59,3 +59,27 @@ Route::get('/bimbingan', function () {
 Route::get('/jadwalpaa', function () {
     return view('paa.jadwal');
 });
+
+
+
+//HALAMAN DOSEN SETELAH LOGIN
+//login dosen
+Route::get('/dospem', function () {
+    return view('dosen.index');
+});
+
+Route::get('/mhsbim', function () {
+    return view('dosen.datamhs');
+});
+
+Route::get('/tamhs', function () {
+    return view('dosen.ta');
+});
+
+Route::get('/riwayatbim', function () {
+    return view('dosen.riwayatbimbingan');
+});
+
+Route::get('/jadwaldosen', function () {
+    return view('dosen.jadwal');
+});

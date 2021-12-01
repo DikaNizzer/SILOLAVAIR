@@ -9,7 +9,7 @@
         </div>
         <div class="modal-body">
             <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">NIDN</label>
+                <label for="exampleFormControlInput1" class="form-label">NIP</label>
                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="152011513034">
             </div>
             <div class="mb-3">
@@ -37,7 +37,7 @@
         </div>
         <div class="modal-body">
             <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">NIDN</label>
+                <label for="exampleFormControlInput1" class="form-label">NIP</label>
                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="152011513034">
             </div>
             <div class="mb-3">
@@ -47,7 +47,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
-          <button type="button" class="btn btn-primary">Login</button>
+          <a href="/dospem"><button type="button" class="btn btn-primary">Login</button></a>
 
         </div>
       </div>
@@ -129,8 +129,8 @@
                 </ul>
               </li>
             </ul>
-        
-            
+
+
 
           </div>
         </div>
