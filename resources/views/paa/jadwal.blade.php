@@ -3,7 +3,9 @@
 
 <div class="container mt-20">
     <br>
+    <a href="#" data-bs-toggle="modal" data-bs-target="#tambahjadwal">
     <button type="button" class="btn btn-success btn-rounded btn-fw position-relative-end">Jadwalkan Sidang</button>
+    </a>
     <br><br>
 </div>
 
@@ -55,120 +57,6 @@
                   May 15, 2015
                 </td>
               </tr>
-              <tr>
-                <td class="py-1">
-                  <img src="dashboard/images/faces/face2.jpg" alt="image"/>
-                </td>
-                <td>
-                  Messsy Adam
-                </td>
-                <td>
-                  <div class="progress">
-                    <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </td>
-                <td>
-                    <button type="button" class="btn btn-inverse-primary btn-fw">Detail</button>
-                </td>
-                <td>
-                  July 1, 2015
-                </td>
-              </tr>
-              <tr>
-                <td class="py-1">
-                  <img src="dashboard/images/faces/face3.jpg" alt="image"/>
-                </td>
-                <td>
-                  John Richards
-                </td>
-                <td>
-                  <div class="progress">
-                    <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </td>
-                <td>
-                  $138.00
-                </td>
-                <td>
-                  Apr 12, 2015
-                </td>
-              </tr>
-              <tr>
-                <td class="py-1">
-                  <img src="../../images/faces/face4.jpg" alt="image"/>
-                </td>
-                <td>
-                  Peter Meggik
-                </td>
-                <td>
-                  <div class="progress">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </td>
-                <td>
-                  $ 77.99
-                </td>
-                <td>
-                  May 15, 2015
-                </td>
-              </tr>
-              <tr>
-                <td class="py-1">
-                  <img src="../../images/faces/face5.jpg" alt="image"/>
-                </td>
-                <td>
-                  Edward
-                </td>
-                <td>
-                  <div class="progress">
-                    <div class="progress-bar bg-danger" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </td>
-                <td>
-                  $ 160.25
-                </td>
-                <td>
-                  May 03, 2015
-                </td>
-              </tr>
-              <tr>
-                <td class="py-1">
-                  <img src="../../images/faces/face6.jpg" alt="image"/>
-                </td>
-                <td>
-                  John Doe
-                </td>
-                <td>
-                  <div class="progress">
-                    <div class="progress-bar bg-info" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </td>
-                <td>
-                  $ 123.21
-                </td>
-                <td>
-                  April 05, 2015
-                </td>
-              </tr>
-              <tr>
-                <td class="py-1">
-                  <img src="../../images/faces/face7.jpg" alt="image"/>
-                </td>
-                <td>
-                  Henry Tom
-                </td>
-                <td>
-                  <div class="progress">
-                    <div class="progress-bar bg-warning" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </td>
-                <td>
-                  $ 150.00
-                </td>
-                <td>
-                  June 16, 2015
-                </td>
-              </tr>
             </tbody>
           </table>
         </div>
@@ -176,5 +64,29 @@
     </div>
   </div>
 
+  <div class="modal fade" id="tambahjadwal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Tambah Jadwal Sidang Mahasiswa</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">NIM</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="152011513034">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleFormControlInput1" >
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+          <a href=/mahasiswa><button type="button" class="btn btn-primary" >Login</button></a>
 
+        </div>
+      </div>
+    </div>
+  </div>
 @endsection

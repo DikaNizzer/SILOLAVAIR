@@ -65,7 +65,7 @@
         </div>
         <div class="modal-body">
             <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">NIDN</label>
+                <label for="exampleFormControlInput1" class="form-label">NIM</label>
                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="152011513034">
             </div>
             <div class="mb-3">
@@ -75,7 +75,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
-          <a href=/mhs><button type="button" class="btn btn-primary" >Login</button></a>
+          <a href=/mahasiswa><button type="button" class="btn btn-primary" >Login</button></a>
 
         </div>
       </div>

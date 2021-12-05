@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DosenController;
+use App\Http\Controllers\MahasiswaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,12 +18,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('landing.index');
 });
-
-//Login Mahasiswa
-Route::get('/mhs', function () {
-    return view('mhs.index');
-});
-
 
 //HALAMAN PAA SETELAH LOGIN
 //login paa
@@ -40,14 +36,16 @@ Route::get('/buatmhs', function () {
 });
 
 //tabel Mahasiswa
-Route::get('/datamhs', function () {
-    return view('paa.datamhs');
-});
+// Route::get('/datamhs', function () {
+//     return view('paa.datamhs');
+// });
+Route::get('/datamhs', [MahasiswaController::class, 'index'] );
 
 //tabel Dosen
-Route::get('/datadosen', function () {
-    return view('paa.datadosen');
-});
+// Route::get('/datadosen', function () {
+//     return view('paa.datadosen');
+// });
+Route::get('/datadosen', [DosenController::class, 'index'] );
 
 //tabel Dosen
 Route::get('/bimbingan', function () {
@@ -82,4 +80,14 @@ Route::get('/riwayatbim', function () {
 
 Route::get('/jadwaldosen', function () {
     return view('dosen.jadwal');
+});
+
+
+//HALAMAN mhs setelah login
+Route::get('/mahasiswa', function () {
+    return view('mhs.index');
+});
+
+Route::get('/tugasakhir', function () {
+    return view('mhs.ta');
 });
