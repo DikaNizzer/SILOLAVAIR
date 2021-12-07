@@ -14,6 +14,9 @@
   <!-- End plugin css for this page -->
   <!-- inject:css -->
   <link rel="stylesheet" href="dashboard/css/style.css">
+  {{-- UNTUK BOTSTRAP --}}
+  {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> --}}
+
 
   <!-- endinject -->
   <link rel="shortcut icon" href="dashboard/images/favicon.png" />
@@ -56,6 +59,9 @@
   <!-- Custom js for this page-->
   <script src="dashboard/js/dashboard.js"></script>
   <!-- End custom js for this page-->
+
+  {{-- UNTUK JS BOTSTTRAP --}}
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>

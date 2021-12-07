@@ -1,7 +1,11 @@
 <?php
 
+use App\Models\Mahasiswa;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TaController;
 use App\Http\Controllers\DosenController;
+use App\Http\Controllers\JadwalCOntroller;
+use App\Http\Controllers\BimbinganController;
 use App\Http\Controllers\MahasiswaController;
 
 /*
@@ -51,13 +55,17 @@ Route::get('/datadosen', [DosenController::class, 'index'] );
 Route::get('/bimbingan', function () {
     return view('paa.bimbingan');
 });
+Route::get('/bimbingan', [TaController::class, 'index'] );
 
 
 //Jadwal SIdang
-Route::get('/jadwalpaa', function () {
-    return view('paa.jadwal');
-});
+// Route::get('/jadwalpaa', function () {
+//     return view('paa.jadwal');
+// });
+Route::get('/jadwalpaa', [JadwalCOntroller::class, 'index'] );
 
+//Membuat jadwal
+Route::post('/buatjadwal', [JadwalCOntroller::class, 'buat'] );
 
 
 //HALAMAN DOSEN SETELAH LOGIN
@@ -70,9 +78,9 @@ Route::get('/mhsbim', function () {
     return view('dosen.datamhs');
 });
 
-Route::get('/tamhs', function () {
-    return view('dosen.ta');
-});
+// Route::get('/tamhs', function () {
+//     return view('dosen.ta');
+// });
 
 Route::get('/riwayatbim', function () {
     return view('dosen.riwayatbimbingan');
@@ -84,10 +92,20 @@ Route::get('/jadwaldosen', function () {
 
 
 //HALAMAN mhs setelah login
-Route::get('/mahasiswa', function () {
-    return view('mhs.index');
-});
+// Route::get('/mahasiswa', function () {
+//     return view('mhs.index');
+// });
+Route::get('/mahasiswa', [MahasiswaController::class, 'mhs'] );
 
-Route::get('/tugasakhir', function () {
-    return view('mhs.ta');
-});
+//halaman ta mhs
+// Route::get('/tugasakhir', function () {
+//     return view('mhs.ta');
+// });
+
+Route::get('/tugasakhir', [MahasiswaController::class, 'ta'] );
+
+// Route::get('/tamhs', function () {
+//     return view('mhs.ta');
+// });
+
+Route::get('/tamhs', [BimbinganController::class, 'index'] );

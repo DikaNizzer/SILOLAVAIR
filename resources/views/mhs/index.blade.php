@@ -28,11 +28,16 @@
                     <div class="card-body">
                       <blockquote class="blockquote mb-0">
                         <ul class="list-group">
-                            <li class="list" >Username</li>
-                            <li class="list">Password</li>
-                            <li class="list">NIM</li>
+                            {{-- @foreach ($mahasiswa as $mhs ) --}}
+                            <li class="list" >NIM : {{ $mahasiswa->NIM }}</li>
+                            <li class="list">NAMA : {{ $mahasiswa->NAMA_MHS }}</li>
+                            <li class="list">EMAIL : {{ $mahasiswa->EMAIL_MHS }}</li>
+                            {{-- @endforeach --}}
+                            {{-- <li class="list" >NIM</li>
+                            <li class="list">NAMA</li>
+                            <li class="list">NIM</li> --}}
                           </ul>
-                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                        {{-- <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer> --}}
                       </blockquote>
                     </div>
                   </div>

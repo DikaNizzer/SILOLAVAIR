@@ -11,8 +11,13 @@ class TA extends Model
     use HasFactory;
     protected $primaryKey = 'ID_TA';
     protected $table = "tugas_akhir";
+    protected $foreignKey = 'mahasiswa_NIM';
 
     public function mahasiswa(){
-        return $this->belongsTo(Mahasiswa::class);
+        return $this->belongsTo('App\Models\Mahasiswa');
+    }
+
+    public function bimbingan(){
+    	return $this->hasMany('App\Models\Bimbingan');
     }
 }

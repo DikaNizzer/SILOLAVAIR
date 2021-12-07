@@ -25,7 +25,7 @@
                     No Telephone
                 </th>
                 <th>
-                    Alamat
+                    Pembimbing
                 </th>
                 <th>
                     Detail Data
@@ -50,7 +50,7 @@
                     {{ $data->NO_TLP_MHS }}
                 </td>
                 <td>
-                    {{ $data->ALAMAT_MHS }}
+                    {{ $data->dosen->NAMA_DOSEN }}
                 </td>
                 <td>
                     <button type="button" class="btn btn-inverse-primary btn-fw">Detail</button>

@@ -23,16 +23,22 @@
             <div class="container m-30">
                 <div class="card ">
                     <div class="card-header ">
-                      Nama
+                        {{-- @foreach ($mahasiswa as $mhs ) --}}
+                        {{ $mahasiswa->NAMA_MHS }}
+                        {{-- @endforeach --}}
+
                     </div>
                     <div class="card-body">
                       <blockquote class="blockquote mb-0">
                         <ul class="list-group">
-                            <li class="list" >Username</li>
-                            <li class="list">Password</li>
-                            <li class="list">NIM</li>
+                            @foreach ($ta as $data )
+                            <li class="list" >Juduk TA : {{ $data->JUDUL_TA }} </li>
+                            <li class="list">Tanggal Pengajuan : {{ $data->TGL_PENGAJUAN }}</li>
+                            @endforeach
+
+
                           </ul>
-                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                        {{-- <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer> --}}
                       </blockquote>
                     </div>
                   </div>

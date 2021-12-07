@@ -48,13 +48,13 @@
           <span class="menu-title">Jadwal Sidang</span>
         </a>
       </li>
-      <li class="nav-item">
+      {{-- <li class="nav-item">
         <a class="nav-link" href="pages/icons/mdi.html">
           <i class="mdi mdi-emoticon menu-icon"></i>
           <span class="menu-title">Icons</span>
         </a>
-      </li>
-      <li class="nav-item sidebar-category">
+      </li> --}}
+      {{-- <li class="nav-item sidebar-category">
         <p>Pages</p>
         <span></span>
       </li>
@@ -88,6 +88,6 @@
         <a class="nav-link" href="http://www.bootstrapdash.com/demo/spica/template/">
           <button class="btn bg-danger btn-sm menu-title">Upgrade to pro</button>
         </a>
-      </li>
+      </li> --}}
     </ul>
   </nav>
