@@ -11,7 +11,7 @@ class BimbinganController extends Controller
 
         //ambil data dari table pengurus
         // $mahasiswa = DB::table('mahasiswa')->get();
-        $bim = Bimbingan::with('ta')->first();
+        $bim = Bimbingan::with('ta')->get();
         // $ta = DB::table('tugas_akhir')
         //         ->where('mahasiswa_NIM', '=', '152011513060')
         //         ->get();

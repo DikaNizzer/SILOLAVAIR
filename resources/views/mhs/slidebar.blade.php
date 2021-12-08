@@ -37,13 +37,13 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/jadwaldosen">
+        <a class="nav-link" href="#">
           <i class="mdi mdi-animation menu-icon"></i>
           <span class="menu-title">Riwayat Revisi</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="pages/tables/basic-table.html">
+        <a class="nav-link" href="#">
           <i class="mdi mdi-calendar-clock menu-icon"></i>
           <span class="menu-title">Jadwal Sidang</span>
         </a>

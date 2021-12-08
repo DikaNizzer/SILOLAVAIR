@@ -78,9 +78,9 @@ Route::get('/mhsbim', function () {
     return view('dosen.datamhs');
 });
 
-// Route::get('/tamhs', function () {
-//     return view('dosen.ta');
-// });
+Route::get('/tadosen', function () {
+    return view('dosen.ta');
+});
 
 Route::get('/riwayatbim', function () {
     return view('dosen.riwayatbimbingan');

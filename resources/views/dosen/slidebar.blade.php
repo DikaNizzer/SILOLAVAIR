@@ -18,7 +18,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="tamhs">
+        <a class="nav-link" href="tadosen">
           <i class="mdi mdi-book-open-page-variant menu-icon"></i>
           <span class="menu-title">TA Mahasiswa</span>
         </a>
