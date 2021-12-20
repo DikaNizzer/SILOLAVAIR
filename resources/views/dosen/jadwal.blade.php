@@ -52,7 +52,7 @@
                                         </div>
                                       </td>
                                       <td>
-                                        M. Prasetyo
+                                        M.Prasetyo
                                       </td>
                                       {{-- <td>
                                         <button type="button" class="btn btn-inverse-primary btn-fw">Detail</button>

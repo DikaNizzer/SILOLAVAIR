@@ -43,6 +43,12 @@
         </a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="/ajukan">
+          <i class="mdi mdi-book-open-page-variant menu-icon"></i>
+          <span class="menu-title">Ajukan Sidang</span>
+        </a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="#">
           <i class="mdi mdi-calendar-clock menu-icon"></i>
           <span class="menu-title">Jadwal Sidang</span>

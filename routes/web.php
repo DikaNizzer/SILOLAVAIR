@@ -57,6 +57,9 @@ Route::get('/bimbingan', function () {
 });
 Route::get('/bimbingan', [TaController::class, 'index'] );
 
+Route::get('/pengajuanmhs', function () {
+    return view('paa.pengajuan');
+});
 
 //Jadwal SIdang
 // Route::get('/jadwalpaa', function () {
@@ -90,6 +93,9 @@ Route::get('/jadwaldosen', function () {
     return view('dosen.jadwal');
 });
 
+Route::get('/pengajuan', function () {
+    return view('dosen.pengajuan');
+});
 
 //HALAMAN mhs setelah login
 // Route::get('/mahasiswa', function () {
@@ -109,3 +115,8 @@ Route::get('/tugasakhir', [MahasiswaController::class, 'ta'] );
 // });
 
 Route::get('/tamhs', [BimbinganController::class, 'index'] );
+
+//Halaman Pengajuan
+Route::get('/ajukan', function () {
+    return view('mhs.ajukan');
+});

@@ -24,6 +24,12 @@
         </a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="pengajuan">
+          <i class="mdi mdi-calendar-multiple-check menu-icon"></i>
+          <span class="menu-title">Pengajuan Sidang</span>
+        </a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="/jadwaldosen">
           <i class="mdi mdi-alarm-check menu-icon"></i>
           <span class="menu-title">Jadwal Sidang</span>
